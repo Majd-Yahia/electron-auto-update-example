@@ -20,17 +20,17 @@ Creating a working template for an electron app with a working updator, for anyo
 > - **Clone the repository in your directory using the following command:** 
 
  ```
-    git clone https://github.com/Majd-Yahia/electron-auto-update-example.
+git clone https://github.com/Majd-Yahia/electron-auto-update-example.
  ```  
 > - **Run npm command:**   
 
 ```  
-    npm init
+npm init
 ```  
 > - **Create an Enviroment variable using command:**  
 
 ```  
-    [Environment]::SetEnvironmentVariable("GH_TOKEN","Your-Token","User").  
+[Environment]::SetEnvironmentVariable("GH_TOKEN","Your-Token","User").  
 ```  
 
 > **Tweak the following sections in package.json:**  
@@ -42,7 +42,7 @@ Creating a working template for an electron app with a working updator, for anyo
 
 Now you are ready to, push the changes to your repository, then run the command:
 ```
-    npm run deploy.  
+npm run deploy.  
 ```
 > When its finished, you will find your deployable app in the repository in the **release section**, click on it, you will find your **version 1.0.0** or what ever you have wrote, click on it, **Edit draft** then scroll all the way down to **Publish release**.  
 
