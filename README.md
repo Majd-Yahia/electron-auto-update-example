@@ -12,7 +12,7 @@ Creating a working template for an electron app with a working updator, for anyo
 > - **Download [Git-Bash](https://git-scm.com/downloads).**  
 > - **Download Yarn as global dependancy using the command npm install --global yarn.**  
 > - **Need to have a [GitHub](https://github.com) account.**  
-> - **create an access token using your github account [Access Tokne](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token).**  
+> - **Create an access token using your github account [Access Tokne](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token).**  
 
 ## Build
 
