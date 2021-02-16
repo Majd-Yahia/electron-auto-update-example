@@ -33,7 +33,7 @@ Creating a working template for an electron app with a working updator, for anyo
     [Environment]::SetEnvironmentVariable("GH_TOKEN","Your-Token","User").  
 ```  
 
-> - **Tweak the following sections in package.json:**  
+> **Tweak the following sections in package.json:**  
 >> - name: replace it with your own project name or leave it as it is.  
 >> - version: set it back to 1.0.0 or to what ever version you want.  
 >> - description: replace with what descripes best your app.  
@@ -44,7 +44,7 @@ Now you are ready to, push the changes to your repository, then run the command:
 ```
     npm run deploy.  
 ```
-> When its finished, you will find your deployable app in the repository in the release section, click on it, you will find your version 1.0.0 or what ever you have wrote it, click on it, Edit draft then scroll all the way down to Publish release.  
+> When its finished, you will find your deployable app in the repository in the **release section**, click on it, you will find your **version 1.0.0** or what ever you have wrote, click on it, **Edit draft** then scroll all the way down to **Publish release**.  
 
 Now go back to your package.json and change the version to 1.0.1 or higher than what you have wrote, push and deploy the app and dont forget to make it the current release.  
 
