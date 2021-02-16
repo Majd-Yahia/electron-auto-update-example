@@ -19,26 +19,26 @@ Creating a working template for an electron app with a working updator, for anyo
 > - **Create your own repository to push your releases on.**   
 > - **Clone the repository in your directory using the following command:** 
 
-                 ```
-                    git clone https://github.com/Majd-Yahia/electron-auto-update-example.
-                 ```  
+ ```
+    git clone https://github.com/Majd-Yahia/electron-auto-update-example.
+ ```  
 > - **Run npm command:**   
 
-                ```  
-                    npm init
-                ```  
+```  
+    npm init
+```  
 > - **Create an Enviroment variable using command:**  
 
-                ```  
-                    [Environment]::SetEnvironmentVariable("GH_TOKEN","Your-Token","User").  
-                ```  
+```  
+    [Environment]::SetEnvironmentVariable("GH_TOKEN","Your-Token","User").  
+```  
 
 > - **Tweak the following sections in package.json:**  
-- name: replace it with your own project name or leave it as it is.  
-- version: set it back to 1.0.0 or to what ever version you want.  
-- description: replace with what descripes best your app.  
-- repository-url: https://github.com/Your_GitHub_Name/Your_Repository.git  
-- Also under build section you can change appID, productName, icon.  
+>> - name: replace it with your own project name or leave it as it is.  
+>> - version: set it back to 1.0.0 or to what ever version you want.  
+>> - description: replace with what descripes best your app.  
+>> - repository-url: https://github.com/Your_GitHub_Name/Your_Repository.git  
+>> - Also under build section you can change appID, productName, icon.  
 
 Now you are ready to, push the changes to your repository, then run the command npm run deploy.  
 > When its finished, you will find your deployable app in the repository in the release section, click on it, you will find your version 1.0.0 or what ever you have wrote it, stage it so it becomes the current release of your app.  
