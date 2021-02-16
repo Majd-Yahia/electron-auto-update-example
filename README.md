@@ -43,7 +43,7 @@ Creating a working template for an electron app with a working updator, for anyo
 Now you are ready to, push the changes to your repository, then run the command npm run deploy.  
 > When its finished, you will find your deployable app in the repository in the release section, click on it, you will find your version 1.0.0 or what ever you have wrote it, click on it, Edit draft then scroll all the way down to Publish release.  
 
-Now make go back to your package.json and change the version to 1.0.1 or higher than what you wrote, push and deploy the app and dont forget to make it the current release.  
+Now go back to your package.json and change the version to 1.0.1 or higher than what you wrote, push and deploy the app and dont forget to make it the current release.  
 
 ## Test
 
