@@ -1,7 +1,7 @@
 {
   "name": "my-new-app",
   "productName": "my-new-app",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "My Electron application description",
   "main": "src/index.js",
   "repository": {
@@ -68,8 +68,7 @@
     "productName": "Electron Auto Updater",
     "win": {
       "target": "nsis",
-      "icon": "src/icon.ico",
-      "requestedExecutionLevel": "requireAdministrator"
+      "icon": "src/icon.ico"
     },
     "nsis": {
       "installerIcon": "src/icon.ico",
