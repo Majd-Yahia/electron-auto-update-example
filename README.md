@@ -25,7 +25,7 @@ git clone https://github.com/Majd-Yahia/electron-auto-update-example
 > - **Run npm command:**   
 
 ```  
-npm init
+npm install
 ```  
 > - **Create an Enviroment variable using CMD:**  
 
